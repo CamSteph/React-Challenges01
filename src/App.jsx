@@ -4,6 +4,7 @@ import Header from './Components/Header';
 import Home from './Components/Home';
 import UndoRedo from './Challenges/UndoRedo';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import CardHover from './Challenges/CardHover';
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/undo-redo' element={<UndoRedo />} />
+        <Route path='/card-hover' element={<CardHover />} />
       </Routes>
     </div>
   )

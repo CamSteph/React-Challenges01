@@ -42,9 +42,9 @@ const Header = (args) => {
               <Toggle nav caret>
                 Challenges
               </Toggle>
-              <DropdownMenu right>
+              <DropdownMenu end>
                 <DropdownItem><Link to='/undo-redo'>Undo Redo</Link></DropdownItem>
-                <DropdownItem><Link to='/modal-creation'>Modal Creation</Link></DropdownItem>
+                <DropdownItem><Link to='/card-hover'>Card Hover</Link></DropdownItem>
                 <DropdownItem divider />
                 <DropdownItem>Go Home</DropdownItem>
               </DropdownMenu>
