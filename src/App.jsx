@@ -1,12 +1,19 @@
-import { useState } from 'react'
-import './App.css'
+import './App.css';
+import { Routes, Route } from 'react-router-dom';
+import Header from './Components/Header';
+import Home from './Components/Home';
+import UndoRedo from './Challenges/UndoRedo';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <div className="App">
-      HGFHFG
+      <Header />
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/undo-redo' element={<UndoRedo />} />
+      </Routes>
     </div>
   )
 }
