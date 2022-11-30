@@ -10,15 +10,10 @@ const Container = styled.div`
   background: #0b192b;
   color: #ccc;
   padding: 120px 50px;
-  /* display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly; */
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
   grid-column-gap: 40px;
-
 `;
 
 const LeftWrapper = styled.div`
@@ -29,7 +24,7 @@ const LeftWrapper = styled.div`
 const Image = styled.img`
   width: 100%;
   height: 80%;
-  object-fit: cover;
+  object-fit: contain;
 `;
 
 const RightWrapper = styled.div`

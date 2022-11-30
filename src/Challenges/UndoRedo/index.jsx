@@ -90,7 +90,7 @@ const UndoRedo = () => {
   return (
     <Container>
       <Breadcrumbs currentPage='Undo-Redo' />
-      <h1>UndoRedo Challenge</h1>
+      <h1>Undo Redo Challenge</h1>
       <span className='challenge-details'>
         This is the Undo Redo challenge. 
         This challenge tests your knowledge of 
